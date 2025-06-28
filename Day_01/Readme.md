@@ -20,7 +20,7 @@ Today marks **Day 1** of my Python journey with Dr. Angela Yu’s 100 Days of Co
 
 To wrap up Day 1, I built a simple yet fun **Band Name Generator** 💡 that takes user input and creates a cool band name based on it.
 
-👉 [Click here to check out the project!](./Project_01_band_name_generator)
+👉 [Click here to check out the project!](./Project_01_band_name_generator.py)
 
 
 #100DaysOfCode #PythonBootcamp #LearnInPublic
