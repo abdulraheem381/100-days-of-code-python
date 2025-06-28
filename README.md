@@ -7,8 +7,6 @@ Welcome to my personal journey through the **100 Days of Code – Python Challen
 | Day | Project | Status |
 |-----|---------|--------|
 | 1   | Band Name Generator | ✅ Completed |
-| 2   | Tip Calculator | ✅ Completed |
-| 3   | Treasure Island Game | ⏳ In Progress |
 | ... | ... | ... |
 
 ## 🧠 Why This Challenge?
@@ -24,14 +22,12 @@ Welcome to my personal journey through the **100 Days of Code – Python Challen
 - Python 3.x
 - VS Code
 - Git & GitHub
-- Figma (for wireframes, later)
-- [Replit.com](https://replit.com/) (for quick testing)
+
 
 ## 👨‍🏫 Course Link:
-[100 Days of Code – The Complete Python Pro Bootcamp for 2023 (Udemy)](https://www.udemy.com/course/100-days-of-code/)
+[100 Days of Code – The Complete Python Pro Bootcamp for 20025 (Udemy)](https://www.udemy.com/course/100-days-of-code/?srsltid=AfmBOoon5Z-ZNkKrUW6avDUwCydN716FpMzo_WtcHsiyGtioveRqBr4j)
 
----
 
-**📌 Updates posted daily**  
-Follow my DevOps + Code journey on [Hashnode](https://abdulraheem.hashnode.dev/) and GitHub!
+
+
 
