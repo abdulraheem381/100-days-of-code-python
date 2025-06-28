@@ -25,7 +25,7 @@ Welcome to my personal journey through the **100 Days of Code – Python Challen
 
 
 ## 👨‍🏫 Course Link:
-[100 Days of Code – The Complete Python Pro Bootcamp for 20025 (Udemy)](https://www.udemy.com/course/100-days-of-code/?srsltid=AfmBOoon5Z-ZNkKrUW6avDUwCydN716FpMzo_WtcHsiyGtioveRqBr4j)
+[100 Days of Code – The Complete Python Pro Bootcamp for 2025 (Udemy)](https://www.udemy.com/course/100-days-of-code/?srsltid=AfmBOoon5Z-ZNkKrUW6avDUwCydN716FpMzo_WtcHsiyGtioveRqBr4j)
 
 
 
