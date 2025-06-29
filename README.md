@@ -7,7 +7,7 @@ Welcome to my personal journey through the **100 Days of Code – Python Challen
 | Day | Project | Status |
 |-----|---------|--------|
 | 1   | Band Name Generator | ✅ Completed |
-| 2   | Tip calculator | ✅ Completed
+| 2   | Tip Calculator | ✅ Completed
 | ... | ... | ... |
 
 ## 🧠 Why This Challenge?
