@@ -1,0 +1,7 @@
+small pizza = $15
+medium pizza = $20
+large pizza = $25
+
+add pepperoni to small pizza 2$
+add pepperoni to medium or large 3$
+add extra cheese for any pizza $1
