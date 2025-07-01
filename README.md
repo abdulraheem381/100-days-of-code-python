@@ -8,6 +8,7 @@ Welcome to my personal journey through the **100 Days of Code – Python Challen
 |-----|---------|--------|
 | 1   | Band Name Generator | ✅ Completed |
 | 2   | Tip Calculator | ✅ Completed
+| 3   | Treasure Island Game | ✅ Completed
 | ... | ... | ... |
 
 ## 🧠 Why This Challenge?
