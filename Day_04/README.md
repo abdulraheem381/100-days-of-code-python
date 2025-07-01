@@ -23,7 +23,7 @@ Today was all about exploring **how Python handles collections** and randomness 
 
 Fun script that randomly selects a person from a list to pay the bill — ideal for team lunches 😄.
 
-🔗 [View Project → ](./Who_will_pay_the_bill.py)
+🔗 [View Script → ](./Who_will_pay_the_bill.py)
 
 ---
 
