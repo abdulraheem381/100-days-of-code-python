@@ -22,7 +22,7 @@ Created a customizable password generator that:
 * Randomly picks characters, numbers, and symbols
 * Outputs a strong password for real-world usage
 
-🔗 [View Project → `Py_password_generator.py`](./Day_05/Py_password_generator.py)
+🔗 [View Project → `Py_password_generator.py`](./Py_password_generator.py)
 
 ---
 
