@@ -10,6 +10,7 @@ Welcome to my personal journey through the **100 Days of Code – Python Challen
 | 2   | Tip Calculator | ✅ Completed |
 | 3   | Treasure Island Game | ✅ Completed |
 | 4   | Rock, Paper, Scissors Game | ✅ Completed|
+| 5   | Py Password Generator      | ✅ Completed
 | ... | ... | ... |
 
 ## 🧠 Why This Challenge?
