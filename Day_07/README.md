@@ -41,7 +41,6 @@ The game includes:
 
 ## ▶️ Run the Game
 
-🔗 **[Click to view `hangman.py`](https://github.com/your-username/your-repo-name/blob/main/Hangman_Game.py)**
+🔗 **[Click to view `hangman.py`](./Hangman_Game.py)**
 
-```bash
-python hangman.py
+
