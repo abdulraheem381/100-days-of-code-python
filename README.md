@@ -12,6 +12,7 @@ Welcome to my personal journey through the **100 Days of Code – Python Challen
 | 4   | Rock, Paper, Scissors Game | ✅ Completed|
 | 5   | Py Password Generator      | ✅ Completed |
 | 6   | Reeborg's World | ✅ Completed |
+| 7   | Hangman Game | ✅ Completed |
 | ... | ... | ... |
 
 ## 🧠 Why This Challenge?
