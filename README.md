@@ -14,6 +14,7 @@ Welcome to my personal journey through the **100 Days of Code – Python Challen
 | 6   | Reeborg's World | ✅ Completed |
 | 7   | Hangman Game | ✅ Completed |
 | 8   | Caesar Cipher | ✅ Completed |
+| 9   | blind Bidder program | ✅ Completed |
 | ... | ... | ... |
 
 ## 🧠 Why This Challenge?

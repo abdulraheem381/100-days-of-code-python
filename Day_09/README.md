@@ -35,6 +35,8 @@ This program simulates a blind auction. It allows multiple users to input their 
 
 ---
 
+📸 Screenshot
+
 🧑 Enter your name: Alice
 💵 Enter your bid price: $300
 ❓ Anyone else want to bid? Type 'yes' or 'no': yes
