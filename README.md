@@ -13,6 +13,7 @@ Welcome to my personal journey through the **100 Days of Code – Python Challen
 | 5   | Py Password Generator      | ✅ Completed |
 | 6   | Reeborg's World | ✅ Completed |
 | 7   | Hangman Game | ✅ Completed |
+| 8   | Caesar Cipher | ✅ Completed |
 | ... | ... | ... |
 
 ## 🧠 Why This Challenge?
