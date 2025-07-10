@@ -30,7 +30,5 @@ This program simulates a blind auction. It allows multiple users to input their 
 
 1. Make sure Python is installed.
 2. Run the program:
-   ```bash
-  python blind_bid.py
-
----
+    ```bash
+   python blind_bid.py
