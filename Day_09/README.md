@@ -31,18 +31,6 @@ This program simulates a blind auction. It allows multiple users to input their 
 1. Make sure Python is installed.
 2. Run the program:
    ```bash
-   python blind_bid.py
+python blind_bid.py
 
 ---
-
-📸 Screenshot
-
-🧑 Enter your name: Alice
-💵 Enter your bid price: $300
-❓ Anyone else want to bid? Type 'yes' or 'no': yes
-
-🧑 Enter your name: Bob
-💵 Enter your bid price: $350
-❓ Anyone else want to bid? Type 'yes' or 'no': no
-
-🏆 The winner is Bob with a bid of $350!
