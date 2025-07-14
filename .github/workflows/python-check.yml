@@ -26,7 +26,14 @@ jobs:
 
       - name: 🚀 Run all Python scripts inside Day_XX folders
         run: |
+          echo "🔍 Searching for Python files in Day_XX folders..."
           for file in $(find . -type f -path "./Day_*/*.py"); do
-            echo "▶️ Running $file"
+            echo "▶️ Found $file"
+            if grep -q "input(" "$file"; then
+              echo "⏭️ Skipping $file — uses input() (not supported in CI)"
+              continue
+            fi
+            echo "⚙️ Running $file"
             python3 "$file"
+            echo "✅ Finished $file"
           done
