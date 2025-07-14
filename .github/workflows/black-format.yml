@@ -13,12 +13,7 @@ jobs:
       - name: 🛒 Checkout Repository
         uses: actions/checkout@v3
         with:
-          persist-credentials: false  # Disable default token
-
-      - name: 🔐 Set up GitHub Token
-        uses: webfactory/ssh-agent@v0.7.0
-        with:
-          ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}  # Optional, not used here, kept for reference
+          persist-credentials: false
 
       - name: 🐍 Set up Python
         uses: actions/setup-python@v4
@@ -42,4 +37,3 @@ jobs:
             git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git HEAD:main
           else
             echo "✅ Code already clean. Nothing to commit."
-          fi
