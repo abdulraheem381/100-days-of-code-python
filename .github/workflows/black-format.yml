@@ -26,14 +26,15 @@ jobs:
       - name: 🖤 Format Python Code
         run: black .
 
-      - name: 🔁 Commit changes if any
+      - name: 🔁 Commit changes if needed
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          if [[ `git status --porcelain` ]]; then
+
+          if [ -n "$(git status --porcelain)" ]; then
             echo "🚨 Code was not clean — committing formatted changes..."
             git add .
             git commit -m "♻️ Auto-format code with Black"
-            git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git HEAD:main
+            git push "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git" HEAD:main
           else
             echo "✅ Code already clean. Nothing to commit."
