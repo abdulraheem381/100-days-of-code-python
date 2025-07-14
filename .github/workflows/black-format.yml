@@ -31,7 +31,8 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
 
-          if [ -n "$(git status --porcelain)" ]; then
+          CHANGES=$(git status --porcelain)
+          if [ ! -z "$CHANGES" ]; then
             echo "🚨 Code was not clean — committing formatted changes..."
             git add .
             git commit -m "♻️ Auto-format code with Black"
