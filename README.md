@@ -15,6 +15,7 @@ Welcome to my personal journey through the **100 Days of Code – Python Challen
 | 7   | Hangman Game | ✅ Completed |
 | 8   | Caesar Cipher | ✅ Completed |
 | 9   | blind Bidder program | ✅ Completed |
+| 10  | Python Calulator | ✅ Completed |
 | ... | ... | ... |
 
 ## 🧠 Why This Challenge?
