@@ -52,7 +52,7 @@ def calculator():
     should_continue = True
 
     while should_continue:
-        operation_symbol = input("Pick an operation: ")
+        operation_symbol = input("Pick an operation: ") 
         num2 = float(input("What's the next number?: "))
 
         calculation_function = operations[operation_symbol]
