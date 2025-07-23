@@ -74,12 +74,3 @@ else:
 print(f"\tYour cards: {cards_owned}, current score: {sum(cards_owned)}")
 
 print(f"\tComputer's first card: {computer_cards}")
-
-
-
-
-
-
-
-
-
