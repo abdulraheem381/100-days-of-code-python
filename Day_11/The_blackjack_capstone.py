@@ -21,68 +21,74 @@ banner = r"""
            BLACK JACK CAPSTONE
 """
 
-while True:
-    game = input("Do you want to play a game of Blackjack? Type 'y' or 'n': ").lower()
-
-    if game == 'n':
-        print("See you next time!")
-        exit()
-    else:
-        print(banner)
-
+def deal_card():
+    """Returns a random card from the deck."""
     cards = [11, 2, 3, 4, 5, 6, 7, 8, 9, 10, 10, 10, 10]
+    return random.choice(cards)
 
-    cards_owned_by_user = []
-    cards_owned_by_computer = []
-    current_user_score = 0
-    current_comp_score = 0
+def calculate_score(cards):
+    """Returns the total score. Adjusts Ace from 11 to 1 if needed."""
+    if sum(cards) == 21 and len(cards) == 2:
+        return 0  # Blackjack
+    if 11 in cards and sum(cards) > 21:
+        cards[cards.index(11)] = 1
+    return sum(cards)
 
-    def user_2_cards_choice():
-        user_cards = random.sample(cards, 2)
-        cards_owned_by_user.extend(user_cards)
-        return user_cards
+def compare(user_score, computer_score):
+    """Compares user and computer scores and returns result."""
+    if user_score == computer_score:
+        return "Draw 🙃"
+    elif computer_score == 0:
+        return "Lose, opponent has Blackjack 😱"
+    elif user_score == 0:
+        return "Win with a Blackjack 😎"
+    elif user_score > 21:
+        return "You went over. You lose 😭"
+    elif computer_score > 21:
+        return "Opponent went over. You win 😁"
+    elif user_score > computer_score:
+        return "You win 😃"
+    else:
+        return "You lose 😤"
 
-    def user_1_card_choice():
-        new_card = random.choice(cards)
-        cards_owned_by_user.append(new_card)
-        return new_card
+while True:
+    start_game = input("Do you want to play a game of Blackjack? Type 'y' or 'n': ").lower()
+    if start_game != 'y':
+        print("See you next time!")
+        break
 
-    def comp_1_card():
-        new_card = random.choice(cards)
-        cards_owned_by_computer.append(new_card)
-        return new_card
+    print(banner)
 
-    def comp_hidden_choice():
-        hidden_card = random.choice(cards)
-        cards_owned_by_computer.append(hidden_card)
-        return hidden_card
+    user_cards = []
+    computer_cards = []
 
-    def add_user_cards():
-        return sum(cards_owned_by_user)
+    for _ in range(2):
+        user_cards.append(deal_card())
+        computer_cards.append(deal_card())
 
-    def add_comp_cards():
-        return sum(cards_owned_by_computer)
-    
-    user_2_cards_choice()
-    current_user_score = add_user_cards()
+    game_over = False
 
-    print(f"\tYour cards: {cards_owned_by_user}, current score: {current_user_score}")
+    while not game_over:
+        user_score = calculate_score(user_cards)
+        computer_score = calculate_score(computer_cards)
 
-    comp_1_card()
+        print(f"\nYour cards: {user_cards}, current score: {user_score}")
+        print(f"Computer's first card: {computer_cards[0]}")
 
-    print(f"\tComputer's first card: {cards_owned_by_computer}")
+        if user_score == 0 or computer_score == 0 or user_score > 21:
+            game_over = True
+        else:
+            should_continue = input("Type 'y' to get another card, type 'n' to pass: ").lower()
+            if should_continue == 'y':
+                user_cards.append(deal_card())
+            else:
+                game_over = True
 
-   
+    # Computer's turn
+    while computer_score != 0 and computer_score < 17:
+        computer_cards.append(deal_card())
+        computer_score = calculate_score(computer_cards)
 
-
-
-
-
-
-
-
-    
-
-
-
-
+    print(f"\nYour final hand: {user_cards}, final score: {user_score}")
+    print(f"Computer's final hand: {computer_cards}, final score: {computer_score}")
+    print(compare(user_score, computer_score))
