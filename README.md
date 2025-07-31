@@ -16,6 +16,7 @@ Welcome to my personal journey through the **100 Days of Code – Python Challen
 | 8   | Caesar Cipher | ✅ Completed |
 | 9   | blind Bidder program | ✅ Completed |
 | 10  | Python Calulator | ✅ Completed |
+| 11  | Black Jack Game  | ✅ Completed |
 | ... | ... | ... |
 
 ## 🧠 Why This Challenge?
